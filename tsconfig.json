@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "NodeNext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "moduleResolution": "nodenext",
+    "noImplicitAny": false,
+    "rootDir": "./src",
+    "outDir": "./build",
+    "baseUrl": "src",
+    "removeComments": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "src/@types",
+      "node_modules/@types"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.js"
+  ],
+  "exclude": [
+    "node_modules",
+    
+  ]
+}
